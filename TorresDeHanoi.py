@@ -60,11 +60,12 @@ try:
 
         hanoi(num_discos, torre_A, torre_B, torre_C, 'A', 'B', 'C')
 
-        print("\n--- ESTADO FINAL --- 🏁")
+        print("\n--- ESTADO FINAL --- ")
         print(f"Torre A: {torre_A}")
         print(f"Torre B: {torre_B}")
         print(f"Torre C: {torre_C}")
         print(f"\n Se completó en un total de {contador_movimientos} movimientos.")
 
 except ValueError:
+
     print("Entrada no válida. Por favor, ingrese un número entero.")
